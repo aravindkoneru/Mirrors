@@ -26,8 +26,8 @@ html, body {
 }
 
 .headerMain{
-     background-color: #ECF0F1;
-    color: #34695e;
+    background-color: #ECF0F1;
+    color: red;
     font-family: 'Quicksand', sans-serif;
     font-size: 200%;
     text-align: center;
