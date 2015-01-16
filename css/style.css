@@ -33,10 +33,6 @@ html, body {
     text-align: center;
 }
 
-.navbarr{
-    position: fixed;
-}
-
 li {
     display: inline;
 }
