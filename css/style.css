@@ -25,6 +25,14 @@ html, body {
     text-align: center;
 }
 
+.headerMain{
+     background-color: #ECF0F1;
+    color: #34695e;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
 li {
     display: inline;
 }
