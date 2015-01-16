@@ -45,7 +45,7 @@ public class MirrorPanel extends JPanel {
 		} else if(yPos > yC){
 			angle -= 5;
 		}
-		System.out.println("Angle: " + angle);
+		//System.out.println("Angle: " + angle);
 		repaint();
 	}
 	
@@ -72,14 +72,10 @@ public class MirrorPanel extends JPanel {
 	public void drawReflection(Graphics g){
 		Graphics2D g2 = (Graphics2D) g;
 		double alpha = 90 / (90 - angle);
-		g2.setColor(new Color(231, 76, 60));
+		g2.setColor(Color.BLUE);
 		g2.setStroke(new BasicStroke(3));
 		g2.drawLine(0, space, 400, yC);
 		g2.setColor(Color.RED);
-	}
-	
-	
-	
-	
-	
+		g2.drawString("Angle: " + angle, 20, 600);
+	}	
 }
